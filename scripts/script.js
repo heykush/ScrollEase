@@ -1,3 +1,5 @@
+/clmtracker.js is used in this project to detect eye motion and monitoring
+
 const videoConstraints = {
     video: {
         width: {
