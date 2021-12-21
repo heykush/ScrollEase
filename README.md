@@ -1,5 +1,7 @@
 # Scrollease
 ### _Ability to Scroll document by Detection of Mootion of eye 👀._
+[LIVE DEMO](https://d-rat.github.io/SmoothScroll/)
+
 ![image1](https://github.com/heykush/SmoothScroll/blob/main/image.png?raw=true)
 
 ## Why We Need?
