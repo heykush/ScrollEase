@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #0f123f;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
