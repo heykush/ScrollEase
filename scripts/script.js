@@ -48,13 +48,12 @@ function doScroll(eyeValue) {
 
     if (rEye < oPosition) {
         dIframe.scrollBy({
-            top: -20,
-            behavior: "smooth",
+            top: -40,
+     
         });
     } else if (rEye > oPosition + oHeight * 2 + 5) {
         dIframe.scrollBy({
-            top: 20,
-            behavior: "smooth",
+            top: 30,
         });
     }
 }
@@ -109,12 +108,12 @@ function drawEye(eye, irisColor) {
     drawEyeOutline(eye);
 
     const irisRadius = min(eye.center.dist(eye.top), eye.center.dist(eye.bottom));
-    const irisSize = irisRadius * 2;
+    const irisSize = irisRadius * 8;
     noStroke();
     fill(irisColor);
     ellipse(eye.center.x, eye.center.y, irisSize, irisSize);
 
-    const pupilSize = irisSize / 3;
+    const pupilSize = irisSize / 4;
     fill(0, 0.6);
     ellipse(eye.center.x, eye.center.y, pupilSize, pupilSize);
 }
